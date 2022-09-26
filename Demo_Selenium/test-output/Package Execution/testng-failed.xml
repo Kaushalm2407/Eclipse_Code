@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Package Execution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression 2(failed)">
+    <classes>
+      <class name="testng.GoogleLinkTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="about"/>
+          <include name="about"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="advertising"/>
+          <include name="imageSearch"/>
+        </methods>
+      </class> <!-- testng.GoogleLinkTest -->
+      <class name="testng.RediffTest">
+        <methods>
+          <include name="validlogin"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="invalidlogin"/>
+        </methods>
+      </class> <!-- testng.RediffTest -->
+    </classes>
+  </test> <!-- Regression 2(failed) -->
+</suite> <!-- Failed suite [Package Execution] -->

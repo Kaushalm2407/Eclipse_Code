@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Methods">
+	<test name="Methd Test">
+		<classes>
+			<class name="testng.RediffTest">
+				<methods>
+					<include name="invalidlogin"/>
+				</methods>
+			</class>
+			<class name="testng.GoogleLinkTest">
+				<methods>
+					<include name="imageSearch"/>
+					<include name="about"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

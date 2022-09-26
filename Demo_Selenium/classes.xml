@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- @Before Suite is Execute here -->
+<suite name="Suite1">
+	<!-- @Before Test is Execute here -->
+	<test name="Regression 1">
+		<classes>
+			<class name="testng.RediffLoginTest"/>
+		</classes>
+	</test>
+
+</suite>
+<!-- @After Suite is Execute here -->

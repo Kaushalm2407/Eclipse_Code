@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pri 1 tests(failed)">
+    <groups>
+      <run>
+        <include name="pri1"/>
+        <exclude name="search"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.RediffTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="invalidlogin"/>
+        </methods>
+      </class> <!-- testng.RediffTest -->
+    </classes>
+  </test> <!-- Pri 1 tests(failed) -->
+</suite> <!-- Failed suite [Groups] -->

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups">
+	<test name="Pri 1 tests">
+		<groups>
+			<run>
+				<include name="pri1"/>
+				<exclude name="search"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.GoogleLinkTest"/>
+			<class name="testng.RediffTest"/>
+		</classes>
+	</test>
+</suite>

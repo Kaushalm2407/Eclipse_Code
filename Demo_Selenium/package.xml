@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Package Execution">
+	<test name="Regression 2">
+		<packages>
+			<package name="testng.*"/>
+		</packages>
+	</test>
+</suite>
